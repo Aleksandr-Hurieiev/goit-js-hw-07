@@ -27,7 +27,7 @@ const images = [
   },
 ];
 
-const gallegy = document.querySelector(".gallery");
+const gallery = document.querySelector(".gallery");
 
 const item = images
   .map((el) => {
@@ -36,4 +36,4 @@ const item = images
     </li>`;
   }).join('');
 
-gallegy.insertAdjacentHTML("beforeend", item);
+gallery.insertAdjacentHTML("beforeend", item);
